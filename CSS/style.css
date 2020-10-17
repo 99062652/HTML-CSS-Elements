@@ -1,9 +1,14 @@
-#Tekst {
-	text-align: center;
+div#Tekst {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+
 }
 h1 {
 	font-size: 36px;
 	line-height: 36px;
+	border-bottom: 2px groove;
+	border-color: gray;
 }
 h2 {
 	font-size: 32px;
@@ -19,3 +24,26 @@ body {
 	line-height: 26px;
 }
 
+.TIP {
+	padding: 20px;
+	border-radius: 4px;
+	background-color: #def6ed;
+	margin: 25px 0px 0px 0px;
+	
+}
+span {	
+	font-weight: bold;
+}
+.needs{
+  margin: 10px 0;
+}
+.bereiding{
+  margin: 20px 0;
+}
+.space {
+	padding: 0px 0px 20px 0px;
+}
+button {
+	color: black;
+	background: gray;
+}
